@@ -1,4 +1,4 @@
-# 🛠️ ITassist — Sistema de Gestão de Suporte e Infraestrutura de TI
+#  ITassist — Sistema de Gestão de Suporte e Infraestrutura de TI
 
 <p align="center">
   <b>Plataforma centralizada para otimização de chamados técnicos, controlo de ativos e gestão de atendimento de TI.</b>
@@ -6,12 +6,12 @@
 
 ---
 
-## 📋 Sobre o Projeto
+##  Sobre o Projeto
 O **ITassist** é uma aplicação desenvolvida no âmbito acadêmico (UNISO) com o objetivo de solucionar os gargalos na gestão de suporte técnico empresarial. O sistema permite o registo estruturado de chamados, triagem por categorias, alocação de técnicos especializados e histórico cronológico de interações.
 
 ---
 
-## 👥 Equipa de Desenvolvimento
+##  Equipa de Desenvolvimento
 * **Gabriel Augusto** — Engenharia e Gestão da Base de Dados
 * **Pedro** — Desenvolvimento / Back-end
 * **João** — Desenvolvimento / Front-end / Integrações
@@ -19,7 +19,7 @@ O **ITassist** é uma aplicação desenvolvida no âmbito acadêmico (UNISO) com
 
 ---
 
-## 🗄️ Arquitetura da Base de Dados (PostgreSQL)
+## Arquitetura da Base de Dados (PostgreSQL)
 A base de dados relacional (`itassist_db`) foi modelada e implementada utilizando **PostgreSQL** e gerida via **pgAdmin 4**[cite: 7, 8]. 
 
 A estrutura é composta por **6 tabelas principais**:
@@ -30,12 +30,12 @@ A estrutura é composta por **6 tabelas principais**:
 5. **`chamados`**: Tabela central de gestão do ciclo de vida dos tickets (status, prioridade, impacto e prazos)[cite: 7].
 6. **`interacoes_chamado`**: Registo cronológico de conversas e atualizações de cada ticket[cite: 7].
 
-### 📊 Diagrama Entidade-Relacionamento (DER)
+###  Diagrama Entidade-Relacionamento (DER)
 > *(O diagrama completo da base de dados encontra-se documentado na pasta de documentação do projeto e visualizado via pgAdmin).*
 
 ---
 
-## ⚙️ Como Restaurar a Base de Dados (Para a Equipa)
+##  Como Restaurar a Base de Dados (Para a Equipa)
 
 Se precisares de configurar a base de dados no teu ambiente local através do backup fornecido (`.sql`), segue os passos abaixo no **pgAdmin 4**:
 
